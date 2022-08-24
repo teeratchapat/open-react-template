@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'ก้าวทันความต้องการทางธุรกิจที่เปลี่ยนแปลงไปด้วย #HypeProject',
+    // paragraph: 'ก้าวทันความต้องการทางธุรกิจที่เปลี่ยนแปลงไปด้วย #HypeProject'
   };
 
   return (
@@ -53,7 +53,9 @@ const FeaturesTiles = ({
       {...props}
       className={outerClasses}
     >
+      
       <div className="container">
+        
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -71,11 +73,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  การพัฒนาแอพระดับองค์กร
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  สร้างได้ทุกขั้นตอนของวงจรการพัฒนาแอป
+                  </p>
                 </div>
               </div>
             </div>
@@ -93,11 +95,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  เวิร์กโฟลว์อัตโนมัติ
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  ทำให้กระบวนการเป็นดิจิทัลด้วยระบบอัตโนมัติแบบ end-to-end
+                  </p>
                 </div>
               </div>
             </div>
@@ -115,10 +117,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    ความทันสมัย
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  สร้างแพลตฟอร์มเว็บสำหรับติดต่อกับลูกค้าและเครื่องมือภายในในเวลาไม่กี่ชั่วโมง
                     </p>
                 </div>
               </div>
@@ -137,10 +139,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    ประสบการณ์ของลูกค้า
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  มอบประสบการณ์ที่น่าสนใจ ในการทำงานแบบ low-code
                     </p>
                 </div>
               </div>
@@ -159,11 +161,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  การเปลี่ยนแปลงทางดิจิทัล
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  จัดลำดับความสำคัญและปรับปรุงความคิดริเริ่มด้านดิจิทัล
+                  </p>
                 </div>
               </div>
             </div>
@@ -181,11 +183,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                  การทำงาน
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                  ให้อำนาจทุกคนในทีมของคุณทำการเปลี่ยนแปลง ไม่ใช่แค่นักพัฒนาเท่านั้น
+                  </p>
                 </div>
               </div>
             </div>

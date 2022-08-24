@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'การออกแบบแพลตฟอร์ม',
+    paragraph: 'สำหรับผู้ประกอบการที่กำลังวางแผนจะขยายธุรกิจสู่ออนไลน์ แน่นอนว่าการสร้างเว็บไซต์นั้นจะไม่เป็นเรื่องยากอีกต่อไป'
   };
 
   return (
@@ -62,7 +62,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — สำหรับ Low-Code Development<br/> แพลตฟอร์มที่ช่วยให้การออกแบบและพัฒนาเว็บไซต์หรือซอฟต์แวร์ออกมาได้รวดเร็วที่สุด ด้วยการเขียนโค้ดน้อยที่สุด
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -79,7 +79,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — สำหรับ Programmer<br/> แพลตฟอร์มที่ช่วยให้สามารถออกแบบและพัฒนาเว็บไซต์เป็นเรื่องง่าย สามารถ code แก้ไขเว็บไซต์ได้อย่างไม่ยาก
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
